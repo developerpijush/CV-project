@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+  font-family: tahoma;
+}
+.container {
+  max-width: 1000px;
+  background-color: #3498db;
+  margin: 0 auto;
+}
+.my-profile {
+  width: 110px;
+  height: 110px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 20px;
+  float: left;
+}
+.name {
+  float: left;
+  padding: 50px 5px;
+}
+.cut-float {
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffc312;
+}
+.contact {
+  float: right;
+  padding: 40px 30px;
+}
+.contact ul li {
+  list-style: none;
+  padding: 5px;
+}
+.contact ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.contact ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+hr {
+  border: 2px solid green;
+  margin-bottom: 20px;
+}
+.section1 .left {
+  width: 30%;
+  float: left;
+}
+.left h3 {
+  margin-left: 20px;
+}
+.section1 .right {
+  width: 70%;
+  float: left;
+}
+.right p {
+  margin-right: 20px;
+  text-align: justify;
+  color: #ecf0f1;
+}
+.universal-hr {
+  border: 2px solid #000;
+  border-bottom: none;
+  margin: 20px auto;
+}
+.margin {
+  margin-top: 20px;
+}
+.right .left-bar {
+  width: 45%;
+  float: left;
+}
+.right .right-bar {
+  width: 45%;
+  float: left;
+}
+.footer {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footer ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.footer p {
+  color: #fff;
+  margin-top: 5px;
+}
+::selection {
+  color: #fff;
+  background: red;
+}
